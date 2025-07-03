@@ -2,7 +2,7 @@ export const projects=[{
     img : "./javascript/data/data-images/amazon-project.png",
     heading : "Hosted Project",
     title : "Reaxify Component Library",
-    description : "Reaxify is a lightweight and customizable React component library designed to help developers quickly build beautiful and reusable UI components. It includes components like Badge, Banner, Testimonial, Tooltip, ToastPopup , Card and Loading Screen.",
+    description : "Reaxify is a customizable, lightweight React component library featuring reusable UI components like Badge, Banner, Testimonial, Tooltip, ToastPopup, Card, and Loading Screen for building modern interfaces quickly.",
     teckStack : {
         span1:"React",
         span2:"Javascript",
