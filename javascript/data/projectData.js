@@ -1,6 +1,41 @@
 export const projects=[{
     img : "./javascript/data/data-images/amazon-project.png",
     heading : "Hosted Project",
+    title : "Reaxify Component Library",
+    description : "Reaxify is a lightweight and customizable React component library designed to help developers quickly build beautiful and reusable UI components. It includes components like Badge, Banner, Testimonial, Tooltip, ToastPopup , Card and Loading Screen.",
+    teckStack : {
+        span1:"React",
+        span2:"Javascript",
+        span3:"HTML",
+        span4:"CSS",
+        span5:"NPM",
+        span6:"Netlify",
+    },
+    cardLinks:{
+        github:"https://github.com/Ali-Arshad-Khan/reaxify-component-library",
+        external:"https://reaxify-component-library.netlify.app/",
+    },
+},{
+    img : "./javascript/data/data-images/project2.png",
+    heading : "Hosted Project",
+    title : "Assembly Endgame",
+    description : "Assembly Endgame is a responsive word guessing game built with React, HTML, CSS, and JavaScript, showcasing state management, conditional rendering, modern UI, and interactive gameplay with 8 guess attempts.",
+    teckStack : {
+        span1:"Html",
+        span2:"Css",
+        span3:"Javascript",
+        span4:"React",
+        span5:"Netlify",
+        span6:"",
+    },
+    cardLinks:{
+        github:"https://gitlab.com/aliarshadkhan02/assembly-endgame",
+        external:"https://assembly-endgame-project.netlify.app/",
+    },
+},
+{
+    img : "./javascript/data/data-images/amazon-project.png",
+    heading : "Hosted Project",
     title : "Amazon Clone Project",
     description : "A responsive e-commerce website with product search, listings, shopping cart, and a simulated checkout process, optimized for both mobile and desktop.",
     teckStack : {
@@ -124,22 +159,5 @@ export const projects=[{
         external:"https://project-chef-claude.netlify.app/",
     },
 },
-{
-    img : "./javascript/data/data-images/project2.png",
-    heading : "Hosted Project",
-    title : "Assembly Endgame",
-    description : "Assembly Endgame is a responsive word guessing game built with React, HTML, CSS, and JavaScript, showcasing state management, conditional rendering, modern UI, and interactive gameplay with 8 guess attempts.",
-    teckStack : {
-        span1:"Html",
-        span2:"Css",
-        span3:"Javascript",
-        span4:"React",
-        span5:"Netlify",
-        span6:"",
-    },
-    cardLinks:{
-        github:"https://gitlab.com/aliarshadkhan02/assembly-endgame",
-        external:"https://assembly-endgame-project.netlify.app/",
-    },
-}
+
 ]
