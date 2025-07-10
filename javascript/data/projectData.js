@@ -29,7 +29,7 @@ export const projects=[{
         span6:"",
     },
     cardLinks:{
-        github:"https://gitlab.com/aliarshadkhan02/assembly-endgame",
+        github:"https://github.com/Ali-Arshad-Khan/Assembly-Endgame",
         external:"https://assembly-endgame-project.netlify.app/",
     },
 },
@@ -47,7 +47,7 @@ export const projects=[{
         span6:"Netlify",
     },
     cardLinks:{
-        github:"https://gitlab.com/aliarshadkhan02-group/aliarshadkhan02-project/-/tree/master?ref_type=heads",
+        github:"https://github.com/Ali-Arshad-Khan/Amazon-clone-project",
         external:"https://amazon-clone-project-by-aliarshadkhan.netlify.app/",
     },
 },{
@@ -64,7 +64,7 @@ export const projects=[{
         span6:"Render",
     },
     cardLinks:{
-        github:"https://gitlab.com/aliarshadkhan02-group/book-recommendation-system",
+        github:"https://github.com/Ali-Arshad-Khan/Book-Recommendation-System",
         external:"https://book-recommendation-system-je8a.onrender.com/",
     },
 },
@@ -101,7 +101,7 @@ export const projects=[{
         span6:"",
     },
     cardLinks:{
-        github:"https://gitlab.com/aliarshadkhan02/calci-project",
+        github:"https://github.com/Ali-Arshad-Khan/Calculator",
         external:"https://calci-mini-project.netlify.app/",
     },
 },
@@ -119,7 +119,7 @@ export const projects=[{
         span6:"",
     },
     cardLinks:{
-        github:"https://gitlab.com/aliarshadkhan02/rock-paper-scissor-game",
+        github:"https://github.com/Ali-Arshad-Khan/Rock-Paper-Scissor-Game",
         external:"https://rock-paper-scissor-game-mini-project.netlify.app/",
     },
 },
@@ -137,7 +137,7 @@ export const projects=[{
         span6:"",
     },
     cardLinks:{
-        github:"https://gitlab.com/aliarshadkhan02/tenzies",
+        github:"https://github.com/Ali-Arshad-Khan/Tenzies",
         external:"https://tenzies-mini-project.netlify.app/",
     },
 },
@@ -155,7 +155,7 @@ export const projects=[{
         span6:"",
     },
     cardLinks:{
-        github:"https://gitlab.com/aliarshadkhan02/chef-claude",
+        github:"https://github.com/Ali-Arshad-Khan/Chef-Claude-Project",
         external:"https://project-chef-claude.netlify.app/",
     },
 },
