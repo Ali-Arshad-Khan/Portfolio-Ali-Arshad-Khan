@@ -1,4 +1,20 @@
 export const projects=[{
+    heading : "Hosted Project",
+    title : "Van Life",
+    description : "A responsive van rental app built with React, React Router, Vite, Firebase (for data), and MirageJS (for demo auth). Explore vans, filter listings, and access a host dashboard with seamless routing.",
+    teckStack : {
+        span1:"React",
+        span2:"React Router",
+        span3:"Javascript",
+        span4:"CSS",
+        span5:"Firebase",
+        span6:"Netlify",
+    },
+    cardLinks:{
+        github:"https://github.com/Ali-Arshad-Khan/van-life",
+        external:"https://tryvanlife.netlify.app/",
+    },
+},{
     img : "./javascript/data/data-images/amazon-project.png",
     heading : "Hosted Project",
     title : "Reaxify Component Library",
