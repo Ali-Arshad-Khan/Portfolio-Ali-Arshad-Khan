@@ -66,35 +66,71 @@ import { projects } from "./data/projectData.js";
     
 let HTML = '';
 
+// projects.forEach((project) => {
+//     HTML += `
+//         <div class="project1">
+//                 <div class="head">
+//                     <div class="folder">
+//                         <img src="./images/icons/folder.svg" alt="">
+//                     </div>
+//                     <div class="link">
+//                         <a href="${project.cardLinks.github}" target="_blank" style="color:black"><i style="font-size:22px" class="fa">&#xf09b;</i></a>
+//                         <a href="${project.cardLinks.external}" target="_blank" style="color:black"><i class="fa fa-external-link" style="font-size:20px"></i></a>
+//                     </div>
+//                 </div>
+                
+//                 <a href="${project.cardLinks.external}" target="_blank">
+//                 <div class="middle">
+//                         <h4>${project.title}</h4>
+//                         <p class="about">${project.description}</p>
+//                 </div>
+//                 <div class="bottom">
+//                     <span>${project.teckStack.span1}</span>
+//                     <span>${project.teckStack.span2}</span>
+//                     <span>${project.teckStack.span3}</span>
+//                     <span>${project.teckStack.span4}</span>
+//                     <span>${project.teckStack.span5}</span>
+//                     <span>${project.teckStack.span6}</span>
+//                 </div>
+//             </a>
+//             </div>
+//     `
+// });
+// console.log(HTML);
+
+
 projects.forEach((project) => {
     HTML += `
-        <div class="project1">
-                <div class="head">
-                    <div class="folder">
-                        <img src="./images/icons/folder.svg" alt="">
-                    </div>
-                    <div class="link">
-                        <a href="${project.cardLinks.github}" target="_blank" style="color:black"><i style="font-size:22px" class="fa">&#xf09b;</i></a>
-                        <a href="${project.cardLinks.external}" target="_blank" style="color:black"><i class="fa fa-external-link" style="font-size:20px"></i></a>
-                    </div>
-                </div>
+        <div class="project-card">
+         <a href="${project.cardLinks.external}" target="_blank">
+            <div class="project-card-top" style="background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${project.img})">
                 
-                <a href="${project.cardLinks.external}" target="_blank">
-                <div class="middle">
-                        <h4>${project.title}</h4>
-                        <p class="about">${project.description}</p>
-                </div>
-                <div class="bottom">
-                    <span>${project.teckStack.span1}</span>
-                    <span>${project.teckStack.span2}</span>
-                    <span>${project.teckStack.span3}</span>
-                    <span>${project.teckStack.span4}</span>
-                    <span>${project.teckStack.span5}</span>
-                    <span>${project.teckStack.span6}</span>
-                </div>
-            </a>
             </div>
+             </a>
+            <div class="project-card-middle">
+                <div class="project-card-middle-left">
+                <img src="../images/icons/folder.svg" alt="">
+                <span>hosted</span>
+                </div>
+                <div class="link">
+                    <a href="${project.cardLinks.external}" class="link1" target="_blank">Live</a>
+                    <a href="${project.cardLinks.github}" class="link1" target="_blank">Github</a>
+                </div>
+            </div>
+            <a href="${project.cardLinks.external}" target="_blank">
+            <div class="project-card-bottom">
+                <h4>${project.title}</h4>
+                <p>${project.description}</p>
+                <span>${project.teckStack.span1}</span>
+                <span>${project.teckStack.span2}</span>
+                <span>${project.teckStack.span3}</span>
+                <span>${project.teckStack.span4}</span>
+                <span>${project.teckStack.span5}</span>
+                <span>${project.teckStack.span6}</span>
+            </div>
+            </a>
+           </div>
     `
 });
-// console.log(HTML);
-document.querySelector(".projects").innerHTML=HTML;
+
+document.querySelector(".projects-container").innerHTML=HTML;

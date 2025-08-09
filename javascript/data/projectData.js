@@ -1,4 +1,5 @@
 export const projects=[{
+    img : "./javascript/data/data-images/vanlife.png",
     heading : "Hosted Project",
     title : "Van Life",
     description : "A responsive van rental app built with React, React Router, Vite, Firebase (for data), and MirageJS (for demo auth). Explore vans, filter listings, and access a host dashboard with seamless routing.",
@@ -15,7 +16,7 @@ export const projects=[{
         external:"https://tryvanlife.netlify.app/",
     },
 },{
-    img : "./javascript/data/data-images/amazon-project.png",
+    img : "./javascript/data/data-images/reaxify.png",
     heading : "Hosted Project",
     title : "Reaxify Component Library",
     description : "Reaxify is a customizable, lightweight React component library featuring reusable UI components like Badge, Banner, Testimonial, Tooltip, ToastPopup, Card, and Loading Screen for building modern interfaces quickly.",
@@ -32,7 +33,7 @@ export const projects=[{
         external:"https://reaxify-component-library.netlify.app/",
     },
 },{
-    img : "./javascript/data/data-images/project2.png",
+    img : "./javascript/data/data-images/assembly.png",
     heading : "Hosted Project",
     title : "Assembly Endgame",
     description : "Assembly Endgame is a responsive word guessing game built with React, HTML, CSS, and JavaScript, showcasing state management, conditional rendering, modern UI, and interactive gameplay with 8 guess attempts.",
@@ -50,9 +51,9 @@ export const projects=[{
     },
 },
 {
-    img : "./javascript/data/data-images/amazon-project.png",
+    img : "./javascript/data/data-images/amazone.png",
     heading : "Hosted Project",
-    title : "Amazon Clone Project",
+    title : "Amazon Clone",
     description : "A responsive e-commerce website with product search, listings, shopping cart, and a simulated checkout process, optimized for both mobile and desktop.",
     teckStack : {
         span1:"Html",
@@ -67,7 +68,7 @@ export const projects=[{
         external:"https://amazon-clone-project-by-aliarshadkhan.netlify.app/",
     },
 },{
-    img : "./javascript/data/data-images/project1.png",
+    img : "./javascript/data/data-images/book.png",
     heading : "Hosted Project",
     title : "Book Recommendation System",
     description : "Book Recommendation System is a flask based mini project which uses collaborative filtering to recommend related books to the user based on author's rating.",
@@ -104,7 +105,7 @@ export const projects=[{
 // },
 
 {
-    img : "./javascript/data/data-images/project2.png",
+    img : "./javascript/data/data-images/calculator.png",
     heading : "Hosted Project",
     title : "Calculator",
     description : "This is a simple calculator application that performs basic arithmetic operations such as addition, subtraction, multiplication, and division. The project is designed to demonstrate fundamental programming concepts and user interface development.",
@@ -122,7 +123,7 @@ export const projects=[{
     },
 },
 {
-    img : "./javascript/data/data-images/project2.png",
+    img : "./javascript/data/data-images/rock.png",
     heading : "Hosted Project",
     title : "Rock Paper Scissor",
     description : "A simple yet engaging Rock Paper Scissors game implemented using JavaScript, HTML, and CSS. This project provides a fun way to interact with basic game logic and user interface elements.",
@@ -140,7 +141,7 @@ export const projects=[{
     },
 },
 {
-    img : "./javascript/data/data-images/project2.png",
+    img : "./javascript/data/data-images/tenzies.png",
     heading : "Hosted Project",
     title : "Tenzies",
     description : "Tenzies is a responsive dice game using HTML, CSS, JavaScript, and React. It features state management, conditional rendering, and user interaction, allowing players to freeze dice and roll until all match.",
@@ -158,9 +159,9 @@ export const projects=[{
     },
 },
 {
-    img : "./javascript/data/data-images/project2.png",
+    img : "./javascript/data/data-images/chef.png",
     heading : "Hosted Project",
-    title : "Chef claude",
+    title : "Chef Claude",
     description : "Chef Claude is a responsive recipe suggestion app built with React. It takes user-provided ingredients and fetches matching recipes using API integration. The project demonstrates state management, props, conditional rendering, and responsive design.",
     teckStack : {
         span1:"Html",

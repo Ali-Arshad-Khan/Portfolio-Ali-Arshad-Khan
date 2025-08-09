@@ -1,4 +1,7 @@
 html { scroll-behavior: smooth; }
+/* *{
+    box-sizing: border-box;
+} */
 body{
     background-color: white;
     color: black;
@@ -18,4 +21,9 @@ li a:hover{
 }
 li a:active{
     color: blueviolet;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
 }
