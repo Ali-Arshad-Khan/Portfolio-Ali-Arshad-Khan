@@ -122,12 +122,13 @@ body{
     gap: 20px;
     padding-top: 20px;
     padding-bottom: 50px;
-    /* background-color: white; */
-    background-color: hsla(0, 0%, 100%, 0.9);
+    background-color: white;
+    /* background-color: hsla(0, 0%, 100%, 0.9); */
     color: black;
     transition: all 0.5s ease;
-    height: 88vh;
+    height: 100vh;
     z-index: 1;
+    border-left: #aa66fd solid 4px;
  
     
 }

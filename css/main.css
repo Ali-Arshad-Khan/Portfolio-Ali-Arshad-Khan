@@ -91,7 +91,7 @@
     font-size: clamp(40px, 4vw + 1.5rem, 45px);
     font-weight: bold;
     color: rgb(78, 76, 76);
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     width: fit-content;
 } 
 
@@ -115,6 +115,51 @@
     font-family: Arial, Helvetica, sans-serif;
     line-height: 25px;
 } 
+
+/* Container paragraph styling */
+.intro-text {
+    line-height: 2.2; /* Increased line height to give tags space */
+    font-family: 'Inter', sans-serif;
+    /* padding: 20px; */
+}
+
+/* The Tag (Pill) Design */
+.tech-tag {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    background-color: #f2f2f2; /* Darker gray for the tag */
+    color: black;
+    padding: 2px 8px;
+    margin: 0 4px;
+    border-radius: 8px; 
+    border: 1px dashed #444; /* The dashed border effect */
+    box-shadow: inset 0px 2px 5px rgba(128, 128, 128, 0.2), 
+                inset 0px -1px 2px rgba(255, 255, 255, 0.1);
+    font-size: 14px;
+    font-weight: 550;
+    white-space: nowrap;
+    vertical-align: middle;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+/* Logo icon styling */
+.tech-tag img {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    object-fit: contain;
+}
+
+/* Hover effect */
+/* .tech-tag:hover {
+    background-color: #1a1a1a;
+    border-color: #666;
+    transition: 0.3s ease;
+} */
+
 h1,h2,h3{
     margin-top: 0px;
     margin-bottom: 0;
@@ -163,7 +208,7 @@ h1,h2,h3{
   border-radius: 10px;
   
 }
-.section2 img{
+.profile2{
     margin-top: 10px;
     margin-left: 10px;
     width: 200px;
@@ -176,28 +221,80 @@ ul.skill-list{
     /* background-color: pink; */
     max-width: 600px;
     min-width: 200px;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 0;
+    padding-top: 0;
     width: fit-content;
-    display: grid;
-    grid-template-columns: repeat(2, minmax(140px, 200px));
-    gap: 0px 10px;
-    padding-left: 10px;
-    padding-top: 10px;
-    margin: 10px 0 0;
-    overflow: hidden;
+    /* display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px)); */
+    display: flex;
+    /* overflow: hidden; */
     list-style: none;
     
     /* background-color: yellow; */
 }
-ul.skill-list li{
-    max-width: 600px;
-    min-width: 200px;
-    position: relative;
-    margin-bottom: 10px;
-    color: blueviolet;
-    
-    
-    
+
+ul.skill-list img {
+    width: 24px;
+    height: 24px;
+    padding: 2px;
+    margin-right: 8px;
+    /* border: solid 1px #444; */
+    /* object-fit: contain; */
+    cursor: pointer;
 }
+
+ul.skill-list li{
+    cursor: pointer;
+}
+
+.tech-tag1 {
+    position: relative;
+    display: inline-block;
+    margin: 0px;
+}
+
+/* Tooltip text */
+.tooltip {
+    visibility: hidden;
+    width: max-content;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 4px 8px;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 110%; /* position above the icon */
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 12px;
+    pointer-events: none;
+    z-index: 10;
+}
+
+/* Arrow */
+.tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%; /* bottom of tooltip */
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+}
+
+/* Show tooltip on hover */
+.tech-tag1:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
 .section2-bottom{
     margin-top: 30px;
     display: flex;
@@ -437,6 +534,9 @@ ul.skill-list li{
     padding-bottom: 10px;
 
 }
+
+
+
 .card1-links a{
     color: black;
    margin-left: 10px;
@@ -646,6 +746,11 @@ ul.skill-list li{
     .project-card-bottom span {
         font-size: 14px;
         color: rgb(72, 72, 72);
+    }
+
+    .project-card-bottom img {
+        width: 24px;
+        height: 24px;
     }
 
 /* Section 4 css end */
